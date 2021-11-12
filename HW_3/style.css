@@ -1,0 +1,66 @@
+.main {
+position: static;
+width: 1440px;
+height: 72px;
+left: 0px;
+top: 0px;
+background: #0B2239;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px; }
+
+.text{
+position: static;
+width: 922px;
+height: 40px;
+left: 0px;
+top: 0px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 20px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 32px;
+}
+
+.second {
+    position: static;
+width: 86px;
+height: 20px;
+left: 10px;
+top: 8px;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+text-decoration-line: underline;
+color: #4AD295;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+
+.button {
+    position: static;
+width: 110px;
+height: 20px;
+left: 10px;
+top: 8px;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}

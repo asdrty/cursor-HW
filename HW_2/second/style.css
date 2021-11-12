@@ -1,0 +1,60 @@
+body{
+    background-image: url(https://naukatv.ru/upload/images/l/4f/4fea30d2395e228a9adc1e9e949ce62c59b5790d.jpg); 
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+   font-size: 24px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: rgb(210, 255, 10);
+}
+
+p {
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(155, 223, 223);
+}  
+
+h2 {
+    color: rgb(210, 255, 10);
+}
+li {
+    color: rgb(155, 223, 223);
+    text-align: left;
+}
+
+ul{
+    text-align:center;
+    display:inline-block;
+}
+
+strong, b, em {
+    color: blue;
+}
+
+#mars {
+    width: 500px;
+    height: 300px;
+}
+
+#cat {
+    height: 300px;
+    width: 400px;
+}
+
+hr {
+    width: 500px;
+}
+
+div{
+    background-image: url(https://i.pinimg.com/originals/32/1c/b9/321cb99f6d9ae0eae2508d29bef59e0f.jpg);
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+}
+
+#text{
+    color:rgb(252, 249, 248);
+    font-size: 24px;
+}
