@@ -51,7 +51,7 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(186, 226,
 box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
 border-radius: 20px;
 margin: 0px 0px;
-max-width: 320px;
+width: 320px;
 }
 
 .bl15 {
@@ -256,7 +256,7 @@ span {
     line-height: 28px;
     color: #15295A;
     font-weight: bold;
-
+    margin-top: auto;
 }
 
 .tx5 {
@@ -316,7 +316,7 @@ span {
     font-size: 16px;
     line-height: 16px;
     color: #15295A;
-    margin: 12px 0px 32px 0px;
+    margin: 0px 16px 32px 16px;
     text-align: center;
 }
 
