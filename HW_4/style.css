@@ -28,6 +28,10 @@ body {
     top: 122px;
 }
 
+.f {
+    padding-left: 30px;
+}
+
 .tx1 {
     position: absolute;
     width: 445px;
