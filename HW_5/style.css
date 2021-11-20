@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(54, 53, 53);
+}
+
+caption {
+    font-size: 0px;
+}
+
+img {
+    width: 16px;
+    height: 16px;
+}
+
+.table1 {
+    height: 150px;
+    width: 50%;
+    border-radius: 10px;
+    border-collapse: separate;
+    border: 1px solid rgb(34, 33, 33);
+    color: rgb(145, 140, 140);
+
+}
+
+.table1 td {
+    border-bottom: 1px solid rgb(34, 33, 33);
+}
+
+table td:first-child  {
+    width: 45%;
+    padding-left: 2%;
+    color: rgb(199, 194, 194);
+} 
+
+
+table td:last-child {
+    width: 10%;
+    text-align: end;
+    padding-right: 2%;
+}
+
+.table1 th {
+    text-align: left;
+    height: 30px;
+    border-bottom: 1px solid rgb(34, 33, 33);
+    color: rgb(199, 194, 194);
+}
+
+.table1 th:first-child {
+    padding-left: 2%;
+}
+
+#last_n1, #last_n2, #last_n3, #last_n4, #last_n5, #last_n6 {
+    border-bottom: none;
+}
+
+input {
+    vertical-align: middle;
+}
+
+span {
+    vertical-align: middle;
+}
+
+.sea {
+    border: 1px rgb(71, 70, 70) solid;
+    border-radius: 5px;
+    background-color: rgb(71, 70, 70);
+    height: 80%;
+}
+
+.btn {
+    background-image: url(searching.png);
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    margin-left: 3%;
+    vertical-align: middle;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(71, 70, 70);
+}
+
+.search {
+    width: 75%;
+    background: none;
+    border: none;
+    vertical-align: middle;
+    font-size: large;
+}
+
+.bear {
+    width: 20%;
+}
+
+.dv {
+    background-image: url(i.png);
+}
+
+.ls {
+    margin-left: 2%;
+    vertical-align: middle;
+}
+
+.dv1, .dv2, .dv {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dv1 {
+    background-image: url(m.png);
+}
+
+.dv2 {
+    background-image: url(a.png);
+}
+
+.tr {
+    border: 20px solid transparent; border-top: 20px solid green;
+    width: 16px;
+    height: 16px;
+}
