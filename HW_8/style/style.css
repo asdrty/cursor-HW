@@ -1,0 +1,59 @@
+.bl1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 250px;
+}
+
+.dv1 {
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.dv1:nth-child(4n+3){
+    background-color: rgb(197, 31, 31);
+}
+
+.dv1:last-child, .dv1:nth-last-child(3), .dv1:nth-last-child(4){
+    background-color: rgb(29, 29, 139);
+}
+
+
+.btn {
+    width: 501px;
+    height: 92px;
+    background: #44D3A8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    border: none;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 0px 45px;
+    cursor: pointer;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.box::before, .box::after {
+    content: "";
+    height: 6px;
+    width: 200px;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
