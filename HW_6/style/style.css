@@ -406,11 +406,11 @@ hr {
     width: 100%;
 }
 
-.link_type {
+.linktype {
     text-decoration: none;
 }
 
-.link_type:hover {
+.linktype:hover {
     text-decoration: underline;
     color: rosybrown;
     cursor: pointer;
