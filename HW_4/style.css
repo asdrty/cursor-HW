@@ -315,3 +315,13 @@ body {
     left: 1028px;
     top: 100px;
 }
+
+.linktype {
+    text-decoration: none;
+    color: black;
+}
+
+.linktype:hover {
+    text-decoration: underline;
+    color: tomato;
+}
