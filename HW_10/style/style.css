@@ -1,0 +1,19 @@
+.lezo {
+    width: 200px;
+    height: 3px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.lezo::after, .lezo::before {
+    content: "";
+    width: 95px;
+    background-color: palevioletred;
+    height: 3px;
+}
+
+.inlezo {
+    width: 10px;
+    background-color: purple;
+}

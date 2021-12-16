@@ -89,7 +89,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url(image1\ 1.png) 100% 100% / 760px no-repeat;
+    background: url(image11.png) 100% 100% / 760px no-repeat;
 }
 
 .hl1 {
@@ -404,4 +404,14 @@ hr {
     background: #9C69E2;
     opacity: 0.2;
     width: 100%;
+}
+
+.link_type {
+    text-decoration: none;
+}
+
+.link_type:hover {
+    text-decoration: underline;
+    color: rosybrown;
+    cursor: pointer;
 }
