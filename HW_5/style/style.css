@@ -49,10 +49,6 @@ table td:last-child {
     padding-left: 2%;
 }
 
-#last_n1, #last_n2, #last_n3, #last_n4, #last_n5, #last_n6 {
-    border-bottom: none;
-}
-
 input {
     vertical-align: middle;
 }
@@ -69,7 +65,7 @@ span {
 }
 
 .btn {
-    background-image: url(searching.png);
+    background-image: url(./image/searching.png);
     width: 16px;
     height: 16px;
     background-size: contain;
@@ -93,7 +89,7 @@ span {
 }
 
 .dv {
-    background-image: url(i.png);
+    background-image: url(./image/i.png);
 }
 
 .ls {
@@ -109,15 +105,19 @@ span {
 }
 
 .dv1 {
-    background-image: url(m.png);
+    background-image: url(./image/m.png);
 }
 
 .dv2 {
-    background-image: url(a.png);
+    background-image: url(./image/a.png);
 }
 
 .tr {
     border: 20px solid transparent; border-top: 20px solid green;
     width: 16px;
     height: 16px;
+}
+
+#last_1, #last_2, #last_3, #last1, #last2, #last3, #last4, #last5, #last6 {
+    border-bottom: none;
 }
