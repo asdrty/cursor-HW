@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Open+Sans&family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Open+Sans&family=PT+Sans&family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.fontlado {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.fontPT {
+    font-family: Product Sans;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #5282F0;
+}
+
+.blhead1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    left: 163px;
+    top: 65px;
+    width: 546px;
+    z-index: 2;
+}
+
+.blhead {
+    width: 100%;
+    height: 665px;
+    background: #F4F6F9;
+}
+
+.phoneimg {
+    position: absolute;
+    width: 58%;
+    height: 660px;
+    left: 630px;
+    top: 0px;
+    z-index: 1;
+}
+
+.bl1 {
+    display: flex;
+    align-items: center;
+}
+
+.bl2 {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-left: 2%;
+}
+
+.hl1 {
+    margin-top: 133px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+}
+
+.tx1 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #4F4F4F;
+    width: 450px;
+}
+
+.sport {
+    font-family: Product Sans;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #5282F0;
+    margin-left: 5%;
+}
+
+.btn {
+    width: 156.05px;
+    height: 47px;
+    background: #000000;
+    border-radius: 7.33503px;
+    margin-right: 40px;
+}
+
+.blbtn {
+    margin-top: 50px;
+    display: flex;
+}
+
+.tx2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21.2716px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.tx3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+.svg {
+    margin: 0;
+    padding: 0;
+}
+
+.tx22 {
+    font-size: 18px;
+}
+
+@media (max-width: 720px) {
+
+    .blhead1 {
+        height: 525px;
+        width: 100%;
+    }
+    
+    .phoneimg {
+        display: none;
+    }
+
+    .blhead1 {
+        justify-content: center;
+        align-items: center;
+        position: static;
+        width: 100%;
+    }
+
+    .hl1 {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        margin-top: 86px;
+    }
+
+    .tx1 {
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+        width: auto;
+    }
+
+    .sport {
+        margin-top: 10%;
+    }
+
+    .blbtn {
+        display: flex;
+        justify-content: space-between;
+        margin-right: -40px;
+    }
+}
+
+.imgback {
+    position: absolute;
+    top: 665px;
+    z-index: 0;
+    height: 595px;
+    width: 50%;
+    background: linear-gradient( to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1) ), url(./image/Rectangle.png) no-repeat;
+}
+
+.imgm1 {
+    position: absolute;
+    top: 774px;
+    left: 163px;
+    z-index: 2;
+    width: 360px;
+    height: 220px;
+}
+
+.imgm2 {
+    position: absolute;
+    top: 961px;
+    left: 269px;
+    z-index: 1;
+    width: 360px;
+    height: 220px;
+}
+
+.blm2 {
+    position: absolute;
+    top: 798px;
+    left: 55%;
+}
+
+.hl2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+}
+
+.hl3 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+}
+
+.textm1 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #4F4F4F;
+
+}
+
+.btnm1 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+    border: none;
+    background: none;
+}
+
+@media (max-width: 720px) {
+    .blm2 {
+        top: 690px;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        width: auto;
+    }
+    
+    .imgback {
+        top: 1070px;
+        height: 360px;
+        width: 388px;
+    }
+
+    .imgm1 {
+        top: 1140px;
+        left: 20px;
+        width: auto;
+        height: 150px;
+    }
+
+    .imgm2 {
+        top: 1268px;
+        left: 92.79px;
+        width: 248px;
+        height: 150px;
+    }
+
+    .textm1 {
+        text-align: center;
+        width: auto;
+    }
+}
