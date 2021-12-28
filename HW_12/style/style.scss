@@ -324,7 +324,7 @@ header {
         @include column;
         position: static;
         background: linear-gradient(to right, transparent, $fontcolorwhite),
-        url("./Image/undraw_mobile_login_ikmv.png");
+        url("./image/undraw_mobile_login_ikmv.png");
         &__div1 {
             &__h2 {
                 text-align: center;
@@ -441,7 +441,7 @@ header {
 @media (max-width: 720px) {
     .section31__div {
         background: linear-gradient(to right, transparent, $fontcolorwhite),
-        url("./Image/undraw_social_influencer_sgsv.png");
+        url("./image/undraw_social_influencer_sgsv.png");
     }
 }
 
@@ -462,7 +462,7 @@ header {
 }
 
 .section4 {
-    background: url("./Image/Rectangle.png");  
+    background: url("./image/Rectangle.png");  
     position: relative;
     top: 1200px;
     height: 730px;
