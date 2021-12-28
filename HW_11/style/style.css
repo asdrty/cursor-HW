@@ -44,3 +44,63 @@
 img, svg {
     cursor: pointer;
 }
+
+@media (max-width: 720px) {
+    .heade{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    }
+    .search {
+        width: 50%;
+    }
+    .logo {
+       width:  50%;
+    }
+    .setting {
+        margin-top: 5%;
+    }
+
+    .cols {
+        display: none;
+    }
+
+    .avatar {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 0;
+    }
+    .avaimg {
+        height: 164px;
+        width: 184px;
+        margin-bottom: 10px;
+    }
+    .descr {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .dot {
+        display: none;
+    }
+    .mss {
+        margin-left: 3%;
+    }
+    .post {
+        display: flex;
+        flex-direction: row;
+        width: 35%;
+        align-items: center;
+    }
+
+    .postt {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+    }
+}
