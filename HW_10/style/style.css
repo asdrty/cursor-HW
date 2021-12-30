@@ -1,19 +1,112 @@
-.lezo {
-    width: 200px;
-    height: 3px;
+.bl {
     display: flex;
+    width: 100%;
+    justify-content: center;
     align-items: center;
-    margin: auto;
 }
 
-.lezo::after, .lezo::before {
+.lezo {
+    width: 300px;
+    height: 6px;
+    margin: 52px 0;
+    transition: 0.2s ease-in-out 0.6s;
+    background: linear-gradient(270deg, #0D0D0D 0%, #0D0D0D 70%, #FFFFFF 70%, #FFFFFF 85%, #0D0D0D 85%, #0D0D0D 100%);
+}
+
+.container {
+    cursor: pointer;
+}
+
+.container::before, .container::after {
     content: "";
-    width: 95px;
-    background-color: palevioletred;
-    height: 3px;
+    display: block;
+    width: 300px;
+    height: 6px;
+    transition: 0.4s ease-in-out 0.4s;
+    background: linear-gradient(-270deg, #0D0D0D 0%, #0D0D0D 70%, #FFFFFF 70%, #FFFFFF 85%, #0D0D0D 85%, #0D0D0D 100%);
 }
 
-.inlezo {
-    width: 10px;
-    background-color: purple;
+.container:hover .lezo {
+    transform: translate(0, 26px) rotate(-45deg);
+    box-shadow: 0px 0px 24px 16px rgb(252, 248, 0);
+}
+
+.container:hover::before {
+    transition: 0.1s ease-in-out 0.1s;
+    visibility: hidden;
+}
+
+.container:hover::after {
+    transform: translate(0, -26px) rotate(45deg);
+    box-shadow: 0px 0px 24px 16px rgba(6, 79, 224, 0.32);
+}
+
+.block {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 60%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bals {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 70px 14px -14px grey;
+}
+
+.b1 {
+    background: #FFD700;
+}
+
+.b2 {
+    background: linear-gradient(to right, #FFD700, #FFFF00);
+}
+
+.b3 {
+    background: linear-gradient(to right, #FFFF00, #2E8B57);
+}
+
+.b4 {
+    background: linear-gradient(to right, #2E8B57, #006400)
+}
+
+.b5 {
+    background: #006400;
+}
+
+.bals:first-child {
+    animation: first 1s infinite;
+}
+
+.bals:last-child {
+    animation: last 1s infinite;
+}
+
+@keyframes first {
+    25% {
+        transform: translate(-40px, -40px);
+        box-shadow: 0px 110px  14px -14px grey;
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+        box-shadow: 0px 70px  14px -14px grey;
+    }
+
+}
+
+@keyframes last {
+    50% {
+        transform: translate(0px, 0px);
+        box-shadow: 0px 70px  14px -14px grey;
+    }
+
+    75% {
+        transform: translate(40px, -40px);
+        box-shadow: 0px 110px  14px -14px grey;
+    }
 }
