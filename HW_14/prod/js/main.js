@@ -2,8 +2,15 @@
 
 console.log('test');
 
-$('.slick-carousel').slick({
-    slidesToShow: 1,
-    autoplay: true,
-    autoplaySpeed: 1000,
-});
+/*window.onload = function () {
+    document.body.classList.add('loaded');
+  }*/
+
+$(document).ready(function () {
+    $('.review-slider').slick();
+})
+
+$(window).on('load', function() {
+    $('.preloader').fadeOut().end().delay(400).fadeOut('slow');
+  });
+
