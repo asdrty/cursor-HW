@@ -37,11 +37,11 @@ function getRandomNumber () {
 function powNumber () {
     let a, b, c;
     while (!Number.isInteger(a) || !a )  {
-        a =  Number( prompt("Function 2. What degree of number?", "3") );
+        a =  Number( prompt("Function 2. What degree of number?/Введи степінь числа", "3") );
     }
 
     while (!Number.isInteger(b) || !b)  {
-        b =  Number( prompt("Function 2. What number?", "2") );
+        b =  Number( prompt("Function 2. What number?/Введи саме число", "2") );
     }
 
         c = 1; 
@@ -73,22 +73,19 @@ let a, b, password = "";
 
 a = confirm("Function 9. Do you want tell me have mane digits should be in the password?")
 
-if (a) {
-    let digit;
+let digit;
 
+if (a) {
     while (!Number.isInteger(digit) || !digit || digit < 0)  {
         digit =  Number( prompt("Function 9. Have mane digits should be in the password?", "2") );
     }
-
-    for (let i = 0; i < digit; i++) {
-        b = String ( Math.floor( Math.random() * 10 ) );
-        password = password + b;
-    }
 } else {
-    for (let i = 0; i < 8; i++) {
-        b = String ( Math.floor( Math.random() * 10 ) );
-        password = password + b;
-    }
+        digit = 8;
+}
+
+for (let i = 0; i < digit; i++) {
+    b = String ( Math.floor( Math.random() * 10 ) );
+    password = password + b;
 }
     return password;
 }
@@ -112,10 +109,7 @@ function formatWord () {
     a = prompt("Function 3. What is your word?", "BlaBlaBla");
     b = a.toLowerCase();
     d = b.slice(1, b.length);
-    console.log(b);
-    console.log(d);
     c = a[0].toUpperCase();
-    console.log(c);
     a = c + d;
     return a;
 }
