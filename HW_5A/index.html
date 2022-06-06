@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>HW_5</title>
+</head>
+<body>
+    <div>
+        <h1>Function 1</h1>
+        <p>Створіть функцію getRandomArray(length, min, max) – яка повертає масив випадкових цілих чисел. У функції є параметри: length - довжина масиву, min – мінімальне значення цілого числа, max – максимальне значення цілого числа. Приклад: getRandomArray(15, 1, 100) –> [6, 2, 55, 11, 78, 2, 55, 77, 57, 87, 23, 2, 56, 3, 2]</p>
+        <button id="fun1">Click me</button>
+    </div>
+    <div>
+        <h1>Function 2</h1>
+        <p>Створіть функцію getModa(...numbers) – яка вираховує моду всіх переданих в неї аргументів. НЕЦІЛІ ЧИСЛА ІГНОРУЮТЬСЯ 
+            Приклад: getModa(6, 2, 55, 11, 78, 2, 55, 77, 57, 87, 23, 2, 56, 3, 2) –> 2</p>
+        <button id="fun2">Click me</button>
+    </div>
+    <div>
+        <h1>Function 3</h1>
+        <p>Створіть функцію getAverage(...numbers) – яка рахує середнє арифметичне всіх переданих в неї аргументів. НЕЦІЛІ ЧИСЛА ІГНОРУЮТЬСЯ
+            Приклад: getAverage(6, 2, 55, 11, 78, 2, 55, 77, 57, 87, 23, 2, 56, 3, 2) –> 34.4</p>
+        <button id="fun3">Click me</button>
+    </div>
+    <div>
+        <h1>Function 4</h1>
+        <p>Створіть функцію getMedian(...numbers) – яка рахує медіану всіх переданих в неї аргументів. НЕЦІЛІ ЧИСЛА ІГНОРУЮТЬСЯ
+            Приклад: getMedian(6, 2, 55, 11, 78, 2, 55, 77, 57, 87, 23, 2, 56, 3, 2) –> 23 Приклад: getMedian(1, 2, 3, 4) –> 2.5 Приклад: getMedian(1, 2, 3, 4, 5) –> 3</p>
+        <button id="fun4">Click me</button>
+    </div>    
+    <div>
+        <h1>Function 5</h1>
+        <p>Створіть функцію filterEvenNumbers(...numbers) – яка фільтрує парні числа передані як аргументи функції
+            Приклад: filterEvenNumbers(1, 2, 3, 4, 5, 6) -> [1, 3, 5]</p>
+        <button id="fun5">Click me</button>
+    </div> 
+    <div>
+        <h1>Function 6</h1>
+        <p>Створіть функцію countPositiveNumbers(...numbers) – яка порахує кількість чисел більших 0
+            Приклад: countPositiveNumbers(1, -2, 3, -4, -5, 6) -> 3</p>
+        <button id="fun6">Click me</button>
+    </div> 
+    <div>
+        <h1>Function 7</h1>
+        <p>Створіть функцію getDividedByFive(...numbers) – яка відфільтрує усі елементи в масиві та залишить тільки ті, які діляться на ціло на 5
+            Приклад: getDividedByFive(6, 2, 55, 11, 78, 2, 55, 77, 57, 87, 23, 2, 56, 3, 2) -> [55, 55]</p>
+        <button id="fun7">Click me</button>
+    </div> 
+    <div>
+        <h1>Function 8</h1>
+        <p>Створіть функцію replaceBadWords(string) – яка 1) розіб'є фразу на слова, 2) замінить погані слова на зірочки (*). При вирішенні цього завдання необхідно розбити масив на слова за допомогою функції .split(" "), після чого масив необхідно буде склеїти .join(" ") Погані слова: shit та fuck. Передбачте можливість розширювати список цих слів у майбутньому.
+            Приклад: replaceBadWords("Are you fucking kidding?") -> "Are you ****ing kidding?" Приклад: replaceBadWords("Holy shit!") -> "Holy ****!" Приклад: replaceBadWords("It's bullshit!") -> "It's bull****!"</p>
+        <button id="fun8">Click me</button>
+    </div> 
+    <div>
+        <h1>Function 8</h1>
+        <p>Створіть функцію replaceBadWords(string) – яка 1) розіб'є фразу на слова, 2) замінить погані слова на зірочки (*). При вирішенні цього завдання необхідно розбити масив на слова за допомогою функції .split(" "), після чого масив необхідно буде склеїти .join(" ") Погані слова: shit та fuck. Передбачте можливість розширювати список цих слів у майбутньому.
+            Приклад: replaceBadWords("Are you fucking kidding?") -> "Are you ****ing kidding?" Приклад: replaceBadWords("Holy shit!") -> "Holy ****!" Приклад: replaceBadWords("It's bullshit!") -> "It's bull****!"</p>
+        <button id="fun8_2">Click me</button>
+    </div> 
+    <div>
+        <h1>Function 9</h1>
+        <p>Створіть функцію divideByThree(word), яка розбиває кожне слово на умовні склади по 3 букви. Якщо букв менше трьох – не розбиває. Пробіли завжди видаляються. Рядок приводится до нижнього регістру. 
+            Приклад: divideByThree("Commander) -> ["com", "man", "der"] 
+            Приклад: divideByThree("live") -> ["liv", "e"]</p>
+        <button id="fun9">Click me</button>
+    </div> 
+    <script src="script/main.js"></script>
+</body>
+</html>
