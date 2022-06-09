@@ -173,4 +173,19 @@ function calculateWordLetters() {
   console.log(obj)
 }
 
-btn6.onclick = calculateWordLetters;
+//Знову рахуємо букви в слові
+
+function calculateWordLetters2() {
+  const words = prompt('Введіть ваше слово', "текст").split('');
+  const res = words.reduce((acc, item) =>{
+    if (acc[item]) {
+      acc[item] = acc[item] + 1;
+    } else {
+      acc[item] = 1;
+    }
+    return acc;
+  }, {})
+  console.log(res)
+}
+
+btn6.onclick = calculateWordLetters2;
