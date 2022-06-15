@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    background-color: gray;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+p{
+    display: block;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    color: rgb(162, 255, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 24px;
+    border-color: rgb(162, 255, 0);
+    border-radius: 50%;
+}
+
+button:hover {
+    background-image: linear-gradient(rgb(217, 214, 214), yellow);
+    color: black;
+}
